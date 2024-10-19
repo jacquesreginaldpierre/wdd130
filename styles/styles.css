@@ -1,0 +1,68 @@
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+h1 {
+    color: steelblue;
+}
+img {
+    width: 250px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+p {
+    padding: 10px;
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+main img{
+    width: 150px;
+    height: auto;
+}
+p{padding: 0;}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+.
+:root {
+  --heading-background-color: #f06;
+  --heading-text-color: #333;
+  --heading-font: 'Montserrat', Helvetica, sans-serif;
+  --padding: 1rem;
+  --border: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Some example variable use in declarations. */
+
+h1 {
+  background-color: var(--heading-background-color);
+  color: var(--heading-text-color);
+  font-family: var(--heading-font);
+  padding: var(--padding);
+}
+
+aside {
+  margin: 10px auto;
+  padding: var(--padding);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
