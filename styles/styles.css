@@ -50,8 +50,8 @@ h1 {
     color: write;
 }
 aside h2 {
-    position: absolute;
-    top: 50px;
+    position: relative;
+    top: 43px;
     left: 150;
   }
 img {
@@ -74,12 +74,12 @@ aside {
     text-align: center;
 }
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
     border: 1px solid steelblue;
     padding: auto;
     box-shadow: 0 0 30px gray;
-    float: right;
+    float: center;
     margin: 0 0 1rem 1rem;
     text-align: relative;
 }
